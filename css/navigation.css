@@ -1,0 +1,78 @@
+clear-fix::after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0px;
+    visibility: hidden;
+}
+
+div.navigation{
+	//background-color: #333377;
+	width: auto;
+	clear:both;
+	overflow: hidden;
+	position: relative;
+	//text-shadow: 2px 2px #558ABB;
+}
+div.navigation table{
+	/*table-layout: fixed;*/ /* Фиксированная ширина ячеек */
+	float: right;
+	
+}
+div.navigation table td{
+	//background-color: #337777;
+	background-color: #E0AC7F;
+	//background-color: rgba(227,172,127,0.8);
+	width: auto;
+	/*min-width:104px;*/
+	/*min-width:2%;*/
+	padding: 2px 8px 2px 8px; /* up-left-down-right */
+	border: 3px outset silver;
+	border-radius: 6px;
+	text-align: center;
+}
+div.navigation table td a{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	float: left;
+	text-decoration: none;
+	font: 13px/18px Verdana, Verdana, Helvetica, sans-serif;
+	height: auto !important;
+	height: 1%;
+}
+div.navigation table td:hover,
+div.navigation table td a:hover
+{
+	background-color: #F3B198;
+	//background-color: #FF835D;
+	color: #00FF00;
+	//animation-name: moveup;
+	//animation-duration: 0.3s;
+	//animation-delay: 0s;
+}
+div.navigation table tr div{
+	overflow: hidden;
+	position: relative;
+}
+div.navigation table tr div:hover{
+	bottom: 10px;
+}
+div.navigation div.trial:active{
+	background-color: yellow;
+	div.navigation{
+		visibility: hidden;
+	}
+}
+/*
+div:hover{
+	animation-name: moveup;
+	animation-duration: 1s;
+	animation-delay: 0s;
+}
+
+@keyframes moveup{
+	//0%   { bottom: 0px; }
+	//100% { bottom: 6px; }
+}
+*/

@@ -1,0 +1,107 @@
+
+*{
+	color: #000000;
+	font-weight: bold;
+	font-style: italic;
+}
+body{
+	background-image: url( "/site/img/background.gif" );
+	padding: 0px;
+	margin: 0px;
+	width: 100%x;
+	max-width: 100%
+	min-height: 1000px;
+	height: 1000px;
+}
+
+#maintable{
+	width: 100%;
+	min-width: 100%;
+	margin: 0px;
+	padding: 0px;
+	min-height: 1000px;
+}
+#maintable tr, #maintable td{
+	vertical-align: top;
+}
+#tr_maincontent{
+	min-height: 800px;
+	height: 1000px;
+	vertical-align: top;
+}
+#td_maincontent{
+	width: 100%;
+	height: 100%;
+	//vertical-align: top;
+}
+#tableposts{
+	width: 100%;
+	background-color: #E0AC7F;
+	border: 2px silver outset;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	//table-layout: fixed;
+	word-break: break-all;
+}
+
+
+
+#tableposts td{
+	border: 2px silver outset;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	overflow-x: hidden;
+	max-width: 100%;
+	word-break: break-all;
+}
+#tableposts td{
+	max-width: 100%;
+}
+#tableposts .wcontroldiv{
+	max-width: 100%;
+	/*max-width: 1200px;
+	width: auto;
+	min-width: 10%;*/
+}
+#tableposts td:first-child{
+	padding: 10px;
+	width: 30%;
+	max-width: 200px;
+	min-width: 100px;
+	width: 200px;
+	text-align: center;
+	vertical-align: top;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+	background-color: rgba( 200,130,80, 1);
+}
+#tableposts td:last-child{
+	//width: 100%;
+	max-width: 100%;
+	padding: 10px;
+	vertical-align: top;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+#tableposts  .imgavatar{
+	width: 100px;
+	height: 100px;
+	max-width: 100px;
+	max-height: 100px;
+	clear: both;
+}
+#tableposts tr:nth-child(even), #tableposts tr:first-child{
+
+	background-color: rgba( 200,130,80, 1);
+}
+
+
+#td_pagethemes a{
+	padding-right: 10px;
+}
+#td_pagethemes a{
+	min-width: 20px;
+	width: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
